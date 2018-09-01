@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cenas/Menu/scn_settings.unity
+- path: "Assets/Cenas/Explora\xE7ao em 3D/scn_Astros3D.unity"
   isLoaded: 1
   isActive: 1

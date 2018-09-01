@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cenas/Menu/scn_settings.unity
     guid: 6586b05db0e0b9c47b65033ddee143a5
+  - enabled: 1
+    path: Assets/Cenas/Menu/scn_selecaoSimulacoes.unity
+    guid: 915cb4d7071fedc48aa10186901a6b92
+  - enabled: 1
+    path: "Assets/Cenas/Explora\xE7ao em 3D/scn_Astros3D.unity"
+    guid: c5e0ceacb90c15a47a515c698e6a36c9
   m_configObjects: {}

@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
 public class ControladorCenas : MonoBehaviour
@@ -36,6 +35,13 @@ public class ControladorCenas : MonoBehaviour
      */
 
 
+    public static ControladorCenas Singleton;
+
+    private void Awake()
+    {
+        Singleton = this;
+    }
+
     //Não alterar
     public void acessarMenu()
     {
@@ -45,6 +51,20 @@ public class ControladorCenas : MonoBehaviour
     public void acessarConfiguracoes()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void acessaSelacaoSimulacao()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void simulaTerra()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public int cenaAtual()
+    {
+        return SceneManager.GetActiveScene().buildIndex;
     }
    
 
