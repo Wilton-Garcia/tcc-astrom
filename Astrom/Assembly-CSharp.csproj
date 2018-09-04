@@ -62,16 +62,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Astros\Planeta.cs" />
-    <Compile Include="Assets\Scripts\Astros\PlanetaMarte.cs" />
+    <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaMarte.cs" />
+    <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaMercurio.cs" />
     <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaTerra.cs" />
+    <Compile Include="Assets\Scripts\ControladorCenas.cs" />
     <Compile Include="Assets\Scripts\Globais\AstroPlaneta.cs" />
-    <Compile Include="Assets\Scripts\Globais\ControladorCenas.cs" />
     <Compile Include="Assets\Scripts\Globais\ControladorMestre.cs" />
     <Compile Include="Assets\Scripts\Globais\Terra.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUIMenu.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUISelecaoSimulacao.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\GerencimanetoUIConfiguracoes.cs" />
     <Compile Include="Assets\Scripts\UI\Textos\StringsGlobais.cs" />
+    <None Include="Assets\Sci-Fi UI Components Pack\MAIN\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/wilto/Documents/GitHub/tcc-astrom/Astrom/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

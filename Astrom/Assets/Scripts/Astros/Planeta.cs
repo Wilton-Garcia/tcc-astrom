@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Planeta{
+public abstract class Planeta : MonoBehaviour{
 
     public GameObject modelo3D;
 
@@ -24,5 +24,8 @@ public abstract class Planeta{
     public double velocidadeRotacao;
     public double velocidadeTranslacao;
 
-	
+    public void DestruirObjeto()
+    {
+        Destroy(this.gameObject);
+    }
 }
