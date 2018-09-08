@@ -22,20 +22,47 @@ public static class StringsGlobais {
     public static string definicaoComunsAstrosDistanciaSol = "A distancia do sol a este planeta é de: ";
 
 
+    //Definições dos planetas
+    //Mercurio
     public static string planetaMercurioNome = "Mercúrio";
     public static string planetaMercurioTempoRotacao = "696 Horas | 29 Dias";
     public static string planetaMercurioTempoTranslacao = "88 Dias" ;
     public static string planetaMercurioDistanciaSol = "3:10 minutos";
-
+    //Venus
+    public static string planetaVenusNome = "Vénus";
+    public static string planetaVenusTempoRotacao = "5832 Horas | 243 Dias";
+    public static string planetaVenusTempoTranslacao = "224 Dias e 17 Horas";
+    public static string planetaVenusDistanciaSol = "6 minutos";
+    //Terra
     public static string planetaTerraNome = "Terra";
     public static string planetaTerraTempoRotacao = "24 Horas | 1 Dia";
     public static string planetaTerraTempoTranslacao = "365 dias | 1 Ano";
     public static string planetaTerraDistanciaSol = "8 minutos luz";
-
+    //Marte
     public static string planetaMarteNome = "Marte";
     public static string planetaMarteTempoRotacao = "24,5 Horas | 1 Dia";
     public static string planetaMarteTempoTranslacao = "687 dias | 1,8 Anos";
     public static string planetaMarteDistanciaSol = "13 minutos luz";
+    //Jupter
+    public static string planetaJupiterNome = "Jupiter";
+    public static string planetaJupiterTempoRotacao = "9 Horas e 56 minutos";
+    public static string planetaJupiterTempoTranslacao = "11 Anos e 315 dias";
+    public static string planetaJupiterDistanciaSol = "43 minutos luz";
+    //Saturno
+    public static string planetaSaturnoNome = "Saturno";
+    public static string planetaSaturnoTempoRotacao = "10 Horas e 15 minutos";
+    public static string planetaSaturnoTempoTranslacao = "11 Anos e 315 dias";
+    public static string planetaSaturnoDistanciaSol = "1 Hora e 20 minutos luz";
+    //Urano
+    public static string planetaUranoNome = "Urano";
+    public static string planetaUranoTempoRotacao = "12 Horas e 14 minutos";
+    public static string planetaUranoTempoTranslacao = "84 Anos e 13 dias";
+    public static string planetaUranoDistanciaSol = "2 Horas 40 minutos luz";
+    //Netuno
+    public static string planetaNetunoNome = "Netuno";
+    public static string planetaNetunoTempoRotacao = "16 Horas e 7 minutos";
+    public static string planetaNetunoTempoTranslacao = "165";
+    public static string planetaNetunoDistanciaSol = "4 Horas e 40 minutos luz";
 
 
 }

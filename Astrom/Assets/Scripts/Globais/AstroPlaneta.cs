@@ -22,7 +22,7 @@ public class AstroPlaneta : MonoBehaviour
     public int indicePlanetaAtual;
 
 
-    private Planeta[] ListaPlaneta = new Planeta[3];
+    private Planeta[] ListaPlaneta = new Planeta[8];
 
     public void proxPlaneta()
     {
@@ -77,21 +77,19 @@ public class AstroPlaneta : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        
 
-   
-        PlanetaTerra terra = new PlanetaTerra();
-        PlanetaMarte marte = new PlanetaMarte();
-        PlanetaMercurio mercurio = new PlanetaMercurio();
+        ListaPlaneta[0] = new PlanetaMercurio();
+        ListaPlaneta[1] = new PlanetaVenus();
+        ListaPlaneta[2] = new PlanetaTerra();
+        ListaPlaneta[3] = new PlanetaMarte();
+        ListaPlaneta[4] = new PlanetaJupiter();
+        ListaPlaneta[5] = new PlanetaSaturno();
+        ListaPlaneta[6] = new PlanetaUrano();
+        ListaPlaneta[7] = new PlanetaNetuno();
 
-        ListaPlaneta[0] = terra;
-        ListaPlaneta[1] = marte;
-        ListaPlaneta[2] = mercurio;
 
-
-
-      //  Debug.Log(ListaPlaneta[0].nomePlaneta + ListaPlaneta[1].nomePlaneta + ListaPlaneta[2].nomePlaneta);
-
-        mudaPlaneta(terra);
+        mudaPlaneta(ListaPlaneta[2]);
 
 
     }
