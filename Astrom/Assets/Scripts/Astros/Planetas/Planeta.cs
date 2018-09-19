@@ -8,11 +8,11 @@ public abstract class Planeta : MonoBehaviour{
 
     public string nomePlaneta;
     public string categoriaPlaneta = StringsGlobais.definicaoNomeAstroPlaneta;
-
     public string tempoRotacao;
     public string tempoTranslacao;
-
     public string distanciaSol;
+
+    public int anguloRotacao = 0;
 
     public GameObject prefab;
 
@@ -21,11 +21,23 @@ public abstract class Planeta : MonoBehaviour{
     //Diametro Equatorial
     public string tamanhoEquado;
 
-    public double velocidadeRotacao;
-    public double velocidadeTranslacao;
+    public int velocidadeRotacao;
+    public int velocidadeTranslacao;
+
+    public void MovimentoRotacao()
+    {
+       
+            transform.Rotate(new Vector3(0, 5, 0), Time.deltaTime * 5);
+       
+    }
 
     public void DestruirObjeto()
     {
         Destroy(this.gameObject);
+    }
+
+    private void Update()
+    {
+        MovimentoRotacao();
     }
 }

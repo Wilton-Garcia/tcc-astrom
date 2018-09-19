@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Cenas/Explora\xE7ao em 3D/scn_Astros3D.unity"
     guid: c5e0ceacb90c15a47a515c698e6a36c9
+  - enabled: 1
+    path: "Assets/Cenas/Simula\xE7\xE3o/scn_sistemaSolar.unity"
+    guid: 0ffac33c8eed81649a56482a539e6161
   m_configObjects: {}

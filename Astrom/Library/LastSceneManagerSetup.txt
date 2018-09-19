@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cenas/CenaZero.unity
+- path: "Assets/Cenas/Simula\xE7\xE3o/scn_sistemaSolar.unity"
   isLoaded: 1
   isActive: 1

@@ -16,6 +16,8 @@ public class AstroPlaneta : MonoBehaviour
     public GameObject astro3D;
     private GameObject instanciaAstro3D;
 
+    public int velocidadeRotacao;
+
 
     public Planeta planeta;
 
@@ -48,7 +50,7 @@ public class AstroPlaneta : MonoBehaviour
         }
         else
         {
-            indicePlanetaAtual = ListaPlaneta.Length-1;
+            indicePlanetaAtual = ListaPlaneta.Length - 1;
             mudaPlaneta(ListaPlaneta[indicePlanetaAtual]);
         }
     }
@@ -69,15 +71,19 @@ public class AstroPlaneta : MonoBehaviour
         tempoRotacaoPlaneta.text = StringsGlobais.definicaoComumAstrosTempoRotacao + novoPlaneta.tempoRotacao;
         tempoTranslacaoPlaneta.text = StringsGlobais.definicaoComumAstrosTempoTranslacao + novoPlaneta.tempoTranslacao;
         distanciaSol.text = StringsGlobais.definicaoComunsAstrosDistanciaSol + novoPlaneta.distanciaSol;
+        this.velocidadeRotacao = novoPlaneta.velocidadeRotacao;
 
-
+        Debug.Log("Instanciando Planeta");
+        this.planeta = novoPlaneta;
+        Debug.Log("Planeta Instanciado ");
 
     }
 
     // Use this for initialization
     void Start()
     {
-        
+
+        indicePlanetaAtual = 2;
 
         ListaPlaneta[0] = new PlanetaMercurio();
         ListaPlaneta[1] = new PlanetaVenus();
@@ -91,12 +97,13 @@ public class AstroPlaneta : MonoBehaviour
 
         mudaPlaneta(ListaPlaneta[2]);
 
-
     }
 
+    
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-
+        GameObject AstroInstanciado = GameObject.FindGameObjectWithTag("Clone");
+        AstroInstanciado.transform.Rotate(new Vector3(0, 5, 0), Time.deltaTime * velocidadeRotacao);
     }
 }

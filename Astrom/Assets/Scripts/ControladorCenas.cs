@@ -66,6 +66,9 @@ public class ControladorCenas : MonoBehaviour
     {
         return SceneManager.GetActiveScene().buildIndex;
     }
-   
+   public void acessaSimulacaoSistemaSolar()
+    {
+
+    }
 
 }

@@ -16,32 +16,32 @@ public static class StringsGlobais {
     public static string definicaoNomeAstroEstrela = "Estrela";
     public static string definicaoNomeAstroObjeto = "Objeto Estelar";
 
-    public static string definicaoComumAstrosCategoria = "Categoria do astro: ";
-    public static string definicaoComumAstrosTempoRotacao = "O tempo de rotação deste planta é: ";
-    public static string definicaoComumAstrosTempoTranslacao = "O tempo de rotação deste planta é: ";
-    public static string definicaoComunsAstrosDistanciaSol = "A distancia do sol a este planeta é de: ";
+    public static string definicaoComumAstrosCategoria = "Categoria do astro: \n";
+    public static string definicaoComumAstrosTempoRotacao = "O tempo de rotação deste planta é: \n";
+    public static string definicaoComumAstrosTempoTranslacao = "O tempo de rotação deste planta é: \n";
+    public static string definicaoComunsAstrosDistanciaSol = "A distancia do sol a este planeta é de: \n";
 
 
     //Definições dos planetas
     //Mercurio
     public static string planetaMercurioNome = "Mercúrio";
-    public static string planetaMercurioTempoRotacao = "696 Horas | 29 Dias";
+    public static string planetaMercurioTempoRotacao = "696 Horas ou 29 Dias";
     public static string planetaMercurioTempoTranslacao = "88 Dias" ;
     public static string planetaMercurioDistanciaSol = "3:10 minutos";
     //Venus
     public static string planetaVenusNome = "Vénus";
-    public static string planetaVenusTempoRotacao = "5832 Horas | 243 Dias";
+    public static string planetaVenusTempoRotacao = "5832 Horas ou 243 Dias";
     public static string planetaVenusTempoTranslacao = "224 Dias e 17 Horas";
     public static string planetaVenusDistanciaSol = "6 minutos";
     //Terra
     public static string planetaTerraNome = "Terra";
-    public static string planetaTerraTempoRotacao = "24 Horas | 1 Dia";
-    public static string planetaTerraTempoTranslacao = "365 dias | 1 Ano";
+    public static string planetaTerraTempoRotacao = "24 Horas ou 1 Dia";
+    public static string planetaTerraTempoTranslacao = "365 dias ou 1 Ano";
     public static string planetaTerraDistanciaSol = "8 minutos luz";
     //Marte
     public static string planetaMarteNome = "Marte";
-    public static string planetaMarteTempoRotacao = "24,5 Horas | 1 Dia";
-    public static string planetaMarteTempoTranslacao = "687 dias | 1,8 Anos";
+    public static string planetaMarteTempoRotacao = "24,5 Horas ou 1 Dia";
+    public static string planetaMarteTempoTranslacao = "687 dias ou 1,8 Anos";
     public static string planetaMarteDistanciaSol = "13 minutos luz";
     //Jupter
     public static string planetaJupiterNome = "Jupiter";

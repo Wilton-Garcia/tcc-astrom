@@ -12,5 +12,7 @@ public class PlanetaMercurio : Planeta{
         this.tempoTranslacao = StringsGlobais.planetaMercurioTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaMercurioDistanciaSol;
 
+        velocidadeRotacao = 2;
+
     }
 }

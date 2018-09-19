@@ -11,5 +11,7 @@ public class PlanetaMarte : Planeta {
         this.tempoRotacao = StringsGlobais.planetaMarteTempoRotacao;
         this.tempoTranslacao = StringsGlobais.planetaMarteTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaMarteDistanciaSol;
+
+        velocidadeRotacao = 4;
     }
 }

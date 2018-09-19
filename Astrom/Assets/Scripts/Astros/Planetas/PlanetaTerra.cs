@@ -12,5 +12,10 @@ public class PlanetaTerra : Planeta {
         this.tempoRotacao = StringsGlobais.planetaTerraTempoRotacao;
         this.tempoTranslacao = StringsGlobais.planetaTerraTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaTerraDistanciaSol;
+
+        velocidadeRotacao = 24;
+
+
+
     }
 }

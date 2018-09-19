@@ -11,5 +11,7 @@ public class PlanetaJupiter : Planeta
         this.tempoRotacao = StringsGlobais.planetaJupiterTempoRotacao;
         this.tempoTranslacao = StringsGlobais.planetaJupiterTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaJupiterDistanciaSol;
+
+        velocidadeRotacao = 5;
     }
 }
