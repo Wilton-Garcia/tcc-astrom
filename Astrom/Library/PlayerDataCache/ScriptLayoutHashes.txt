@@ -1,12 +1,14 @@
 Android
 PlayerPath?
-C:/Users/wilto/Desktop/apk.apk
+C:/Users/wilto/Desktop/Astrom.apk
 SceneListBegin?
 Assets/Cenas/CenaZero.unity
 Assets/Cenas/Menu/scn_menu.unity
 Assets/Cenas/Menu/scn_settings.unity
-Assets/Cenas/Menu/scn_selecaoSimulacoes.unity
+Assets/Cenas/Menu/scn_selecaoExploracao.unity
 Assets/Cenas/Exploraçao em 3D/scn_Astros3D.unity
+Assets/Cenas/Simulação/scn_sistemaSolar.unity
+Assets/Cenas/Menu/scn_selecaoSimulacao.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControladorCenas
 2e0833daaa71b1d0336b2dc31625a886 Assembly-CSharp.dll:.PlanetaMarte
@@ -23,6 +25,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+2bf0fbf3597cf7ad783d5136313a3d84 Assembly-CSharp.dll:.EfeitosUI
 2e0833daaa71b1d0336b2dc31625a886 Assembly-CSharp.dll:.PlanetaTerra
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -192,6 +195,7 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
+a418b488013cc099c4995b214550a922 Assembly-CSharp.dll:.MovimentoDosPlanetas
 fce73bb095a99b75d97bf03980e31f30 Assembly-CSharp.dll:.Terra
 2e0833daaa71b1d0336b2dc31625a886 Assembly-CSharp.dll:.PlanetaJupiter
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -229,6 +233,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 fe660782ef58f6fbbe5e6ae518eeb4a3 Assembly-CSharp.dll:.AstroPlaneta
 2e0833daaa71b1d0336b2dc31625a886 Assembly-CSharp.dll:.PlanetaNetuno
+9f3ea8451bde05025776a4280403beb8 Assembly-CSharp.dll:.GerenciamentoUISelecaoExploracao
 1eec027b664d4b19445bf49b40b53a2d Assembly-CSharp.dll:.GerenciamentoUIMenu
 bc79872c81f3cda9be1ec427f70f92aa Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour

@@ -482,6 +482,7 @@ MonoBehaviour:
   tempoRotacaoPlaneta: {fileID: 1611295960}
   distanciaSol: {fileID: 1417284281}
   astro3D: {fileID: 1534794958163164, guid: b6ebe70f2e0f69540b5b566710ff09ef, type: 2}
+  velocidadeRotacao: 0
   planeta: {fileID: 0}
   indicePlanetaAtual: 1
 --- !u!4 &473847645
@@ -651,7 +652,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -639.9, y: -18.299988}
+  m_AnchoredPosition: {x: -639.9, y: -142}
   m_SizeDelta: {x: -1279.8, y: -812.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &982830916
@@ -1524,7 +1525,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -639.9, y: 184.98}
+  m_AnchoredPosition: {x: -639.9, y: 148}
   m_SizeDelta: {x: -1279.8, y: -828.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2121791806

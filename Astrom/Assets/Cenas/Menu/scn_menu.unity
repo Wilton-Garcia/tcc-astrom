@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,6 +193,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1641579132}
     m_Modifications:
+    - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224004245709670918, guid: 58699a4b608c6d5498f048850cb2e2a0,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -342,6 +347,31 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1881337865}
+    - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: acessaSelacaoSimulacao
+      objectReference: {fileID: 0}
+    - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 58699a4b608c6d5498f048850cb2e2a0, type: 2}
@@ -1260,7 +1290,7 @@ Prefab:
     - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: acessaSelacaoSimulacao
+      value: acessaSelecaoExporacao
       objectReference: {fileID: 0}
     - target: {fileID: 114716595026675516, guid: 58699a4b608c6d5498f048850cb2e2a0,
         type: 2}

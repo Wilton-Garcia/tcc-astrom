@@ -10,16 +10,18 @@ public static class StringsGlobais {
     public static string textoOpcaoMenu2 = "Simulações";
     public static string textoOpcaoMenu3 = "Curiosidades";
 
-    public static string textoOpcaoSelecaoSimulcao1 = "Planetas";
+    public static string textoOpcaoSelecaoExploracao1 = "Planetas";
+    public static string textoOpcaoSelecaoSimulcao1 = "Sistema Solar";
+
 
     public static string definicaoNomeAstroPlaneta = "Planeta";
     public static string definicaoNomeAstroEstrela = "Estrela";
     public static string definicaoNomeAstroObjeto = "Objeto Estelar";
 
     public static string definicaoComumAstrosCategoria = "Categoria do astro: \n";
-    public static string definicaoComumAstrosTempoRotacao = "O tempo de rotação deste planta é: \n";
-    public static string definicaoComumAstrosTempoTranslacao = "O tempo de rotação deste planta é: \n";
-    public static string definicaoComunsAstrosDistanciaSol = "A distancia do sol a este planeta é de: \n";
+    public static string definicaoComumAstrosTempoRotacao = "O tempo de rotação deste astro é: \n";
+    public static string definicaoComumAstrosTempoTranslacao = "O tempo de translação deste astro é: \n";
+    public static string definicaoComunsAstrosDistanciaSol = "A distancia do sol até este planeta é de: \n";
 
 
     //Definições dos planetas
