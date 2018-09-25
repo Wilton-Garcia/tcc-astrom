@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaUrano.cs" />
     <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaVenus.cs" />
     <Compile Include="Assets\Scripts\Globais\AstroPlaneta.cs" />
+    <Compile Include="Assets\Scripts\Globais\ControladorCamerasSimulacaoSistemaSolar.cs" />
     <Compile Include="Assets\Scripts\Globais\ControladorMestre.cs" />
     <Compile Include="Assets\Scripts\Globais\Terra.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\ControladorCenas.cs" />

@@ -13,7 +13,6 @@ public static class StringsGlobais {
     public static string textoOpcaoSelecaoExploracao1 = "Planetas";
     public static string textoOpcaoSelecaoSimulcao1 = "Sistema Solar";
 
-
     public static string definicaoNomeAstroPlaneta = "Planeta";
     public static string definicaoNomeAstroEstrela = "Estrela";
     public static string definicaoNomeAstroObjeto = "Objeto Estelar";
@@ -22,7 +21,6 @@ public static class StringsGlobais {
     public static string definicaoComumAstrosTempoRotacao = "O tempo de rotação deste astro é: \n";
     public static string definicaoComumAstrosTempoTranslacao = "O tempo de translação deste astro é: \n";
     public static string definicaoComunsAstrosDistanciaSol = "A distancia do sol até este planeta é de: \n";
-
 
     //Definições dos planetas
     //Mercurio
@@ -65,6 +63,4 @@ public static class StringsGlobais {
     public static string planetaNetunoTempoRotacao = "16 Horas e 7 minutos";
     public static string planetaNetunoTempoTranslacao = "165";
     public static string planetaNetunoDistanciaSol = "4 Horas e 40 minutos luz";
-
-
 }

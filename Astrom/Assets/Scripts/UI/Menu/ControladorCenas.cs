@@ -46,6 +46,7 @@ public class ControladorCenas : MonoBehaviour
     //Não alterar
     public void acessarMenu()
     {
+        Debug.Log("Código Chegou aqui");
         SceneManager.LoadScene(1);
     }
     //Não alterar
@@ -63,7 +64,6 @@ public class ControladorCenas : MonoBehaviour
     }
     public void acessaSimulacaoSistemaSolar()
     {
-        Debug.Log("TESTE");
         SceneManager.LoadScene(5);
     }
     public void acessaSelacaoSimulacao()

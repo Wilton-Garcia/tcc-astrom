@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Clone
+  - Camera
   layers:
   - Default
   - TransparentFX

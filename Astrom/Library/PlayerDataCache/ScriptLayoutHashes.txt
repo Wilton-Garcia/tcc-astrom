@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/wilto/Desktop/Astrom.apk
+C:/Users/wilto/Documents/GitHub/tcc-astrom/Aplicativo Android/Astrom.apk
 SceneListBegin?
 Assets/Cenas/CenaZero.unity
 Assets/Cenas/Menu/scn_menu.unity
