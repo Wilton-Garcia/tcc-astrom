@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.004976607, g: 0.005302791, b: 0.006569461, a: 1}
+  m_IndirectSpecularColor: {r: 0.004216738, g: 0.004216738, b: 0.004216738, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 100
+  velocidadeRotacao: 700
   sol: {fileID: 187978095}
 --- !u!1 &187978095
 GameObject:
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 30
+  velocidadeRotacao: 10
   sol: {fileID: 187978095}
 --- !u!1 &525517748
 GameObject:
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 70
+  velocidadeRotacao: 500
   sol: {fileID: 187978095}
 --- !u!1 &744589606
 GameObject:
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 60
+  velocidadeRotacao: 100
   sol: {fileID: 187978095}
 --- !u!1001 &763267362
 Prefab:
@@ -1237,7 +1237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 50
+  velocidadeRotacao: 80
   sol: {fileID: 187978095}
 --- !u!1 &1183456563
 GameObject:
@@ -1318,7 +1318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 80
+  velocidadeRotacao: 550
   sol: {fileID: 187978095}
 --- !u!1 &1544457736 stripped
 GameObject:
@@ -1337,7 +1337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 40
+  velocidadeRotacao: 20
   sol: {fileID: 187978095}
 --- !u!1001 &1660524448
 Prefab:
@@ -1410,7 +1410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movimentoTranslacao: 0
-  velocidadeRotacao: 90
+  velocidadeRotacao: 600
   sol: {fileID: 187978095}
 --- !u!1 &1931146529
 GameObject:

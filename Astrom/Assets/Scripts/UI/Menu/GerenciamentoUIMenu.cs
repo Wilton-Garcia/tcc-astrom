@@ -8,7 +8,7 @@ public class GerenciamentoUIMenu : MonoBehaviour
     public Text textoBtn1;
     public Text textoBtn2;
     public Text textoBtn3;
-
+    public Text textoBtn4;
  
 
     void Start()
@@ -18,6 +18,8 @@ public class GerenciamentoUIMenu : MonoBehaviour
         textoBtn1.text = StringsGlobais.textoOpcaoMenu1;
         textoBtn2.text = StringsGlobais.textoOpcaoMenu2;
         textoBtn3.text = StringsGlobais.textoOpcaoMenu3;
+        textoBtn4.text = StringsGlobais.textoOpcaoMenu4;
+        
            
     }
 

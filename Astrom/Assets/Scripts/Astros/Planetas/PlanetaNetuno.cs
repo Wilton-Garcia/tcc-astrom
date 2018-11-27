@@ -12,7 +12,7 @@ public class PlanetaNetuno : Planeta {
         this.tempoTranslacao = StringsGlobais.planetaNetunoTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaNetunoDistanciaSol;
 
-        velocidadeRotacao = 5;
+        velocidadeRotacao = 38;
     }
 
 }

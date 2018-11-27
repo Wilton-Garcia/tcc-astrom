@@ -70,4 +70,31 @@ public class ControladorCenas : MonoBehaviour
     {
         SceneManager.LoadScene(6);
     }
+    public void acessaSelecaoCuriosidades()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void acessaCuriosidadesPlanetas()
+    {
+        SceneManager.LoadScene(9);
+    }
+    public void acessaCuriosidadesEsrelas()
+    {
+        SceneManager.LoadScene(10);
+    }
+    public void acessaCuriosidadesOutrosPlanetas()
+    {
+        SceneManager.LoadScene(11);
+    }
+
+    public void acessaInformacoes()
+    {
+        SceneManager.LoadScene(12);
+    }
+
+    public void acessaSimulacaElipseSolar()
+    {
+        SceneManager.LoadScene(8);
+    }
+    
 }

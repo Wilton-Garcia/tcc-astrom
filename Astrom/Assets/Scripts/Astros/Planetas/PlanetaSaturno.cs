@@ -12,6 +12,6 @@ public class PlanetaSaturno : Planeta {
         this.tempoTranslacao = StringsGlobais.planetaSaturnoTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaSaturnoDistanciaSol;
 
-        velocidadeRotacao = 4;
+        velocidadeRotacao = 50;
     }
 }

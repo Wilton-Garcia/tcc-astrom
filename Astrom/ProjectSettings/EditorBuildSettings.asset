@@ -26,4 +26,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cenas/Menu/scn_selecaoSimulacao.unity
     guid: 104c1dbfb385c0742a4fd666d13c2bfa
+  - enabled: 1
+    path: Assets/Cenas/Menu/scn_selecaoCuriosidades.unity
+    guid: a188e777f0cb14841bc999936d8b7d31
+  - enabled: 1
+    path: "Assets/Cenas/Simula\xE7\xE3o/scn_eclipseSolar.unity"
+    guid: 30af19047f57ebb4ba1fdb82447f70da
+  - enabled: 1
+    path: Assets/Cenas/Curiosidades/scn_CuriosidadesPlanetas.unity
+    guid: fa36e9dcf8289c94dafc6aff860de4d2
+  - enabled: 1
+    path: Assets/Cenas/Curiosidades/scn_CuriosidadesEstrelas.unity
+    guid: 31322f4cd16ce074b9d80d3bae921116
+  - enabled: 1
+    path: Assets/Cenas/Curiosidades/scn_CuriosidadesOutrosAstros.unity
+    guid: caedbc855f5b1e14a9b8f82f2a1ac661
+  - enabled: 1
+    path: "Assets/Cenas/Informa\xE7\xF5es/scn_Informacoes.unity"
+    guid: e198f349ea6a1c14ea1db23c8cde94d1
   m_configObjects: {}

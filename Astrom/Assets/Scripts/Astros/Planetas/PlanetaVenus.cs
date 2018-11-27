@@ -13,7 +13,9 @@ public class PlanetaVenus : Planeta {
         this.tempoTranslacao = StringsGlobais.planetaVenusTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaVenusDistanciaSol;
 
-        velocidadeRotacao = 1;
+        
+
+        velocidadeRotacao = 1 * -1;
     }
 
 }

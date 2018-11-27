@@ -12,6 +12,6 @@ public class PlanetaUrano : Planeta {
         this.tempoTranslacao = StringsGlobais.planetaUranoTempoTranslacao;
         this.distanciaSol = StringsGlobais.planetaUranoDistanciaSol;
 
-        velocidadeRotacao = 6;
+        velocidadeRotacao = 35;
     }
 }

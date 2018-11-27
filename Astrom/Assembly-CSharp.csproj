@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Astros\Planetas\ComparaTamanhoPlaneta.cs" />
      <Compile Include="Assets\Scripts\Astros\Planetas\MovimentoDosPlanetas.cs" />
      <Compile Include="Assets\Scripts\Astros\Planetas\Planeta.cs" />
      <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaJupiter.cs" />
@@ -63,14 +64,19 @@
      <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaTerra.cs" />
      <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaUrano.cs" />
      <Compile Include="Assets\Scripts\Astros\Planetas\PlanetaVenus.cs" />
+     <Compile Include="Assets\Scripts\Astros\Satelites\Lua.cs" />
      <Compile Include="Assets\Scripts\Globais\AstroPlaneta.cs" />
      <Compile Include="Assets\Scripts\Globais\ControladorCamerasSimulacaoSistemaSolar.cs" />
      <Compile Include="Assets\Scripts\Globais\ControladorMestre.cs" />
+     <Compile Include="Assets\Scripts\Globais\EnumCenas.cs" />
      <Compile Include="Assets\Scripts\Globais\Terra.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\ControladorCenas.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\EfeitosUI.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUIArte.cs" />
+     <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUICuriosidadesPlanetas.cs" />
+     <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUIInformacoes.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUIMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUISelecaoCuriosidades.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUISelecaoExploracao.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\GerenciamentoUISelecaoSimulacao.cs" />
      <Compile Include="Assets\Scripts\UI\Menu\GerencimanetoUIConfiguracoes.cs" />
